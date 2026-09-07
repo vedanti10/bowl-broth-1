@@ -94,6 +94,7 @@ export const FeaturedRamen: React.FC<FeaturedRamenProps> = ({ products, onOpenQu
                   <img
                     src={ramen.image}
                     alt={ramen.name}
+                    referrerPolicy="no-referrer"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     loading="lazy"
                   />

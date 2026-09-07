@@ -169,6 +169,7 @@ export const MenuSection: React.FC<MenuSectionProps> = ({ products, onOpenQuickV
                   <img
                     src={product.image}
                     alt={product.name}
+                    referrerPolicy="no-referrer"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     loading="lazy"
                   />

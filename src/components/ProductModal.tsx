@@ -49,6 +49,7 @@ export const ProductModal: React.FC = () => {
           <img
             src={quickViewProduct.image}
             alt={quickViewProduct.name}
+            referrerPolicy="no-referrer"
             className="w-full h-full object-cover"
           />
 

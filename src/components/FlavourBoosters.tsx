@@ -134,6 +134,7 @@ export const FlavourBoosters: React.FC<FlavourBoostersProps> = ({ products, onOp
                   <img
                     src={slurpKit.image}
                     alt="The Slurp Kit Bundle"
+                    referrerPolicy="no-referrer"
                     className="relative z-10 w-full h-full object-cover rounded-3xl border-3 border-black"
                   />
                   <span className="absolute -bottom-3 -right-3 z-20 bg-black text-[#FFD12F] font-display font-black text-xs px-3 py-1.5 rounded-xl border-2 border-white shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] rotate-3">
@@ -160,6 +161,7 @@ export const FlavourBoosters: React.FC<FlavourBoostersProps> = ({ products, onOp
                   <img
                     src={product.image}
                     alt={product.name}
+                    referrerPolicy="no-referrer"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                     loading="lazy"
                   />

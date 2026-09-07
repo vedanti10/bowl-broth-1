@@ -2,5 +2,7 @@
   "name": "Bowl & Broth",
   "description": "Colourful, youth-focused ramen brand bringing fun, flavourful ramen experiences to college campuses, young adults, events, and food communities.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

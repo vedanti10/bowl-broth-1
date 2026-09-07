@@ -1,4 +1,7 @@
 import { Product, BrothOption, NoodleOption, ToppingOption, ExtraOption } from '../types';
+import chilliOilImg from '../assets/images/chilli_oil_jar_1788805106484.jpg';
+import cheesyRamenImg from '../assets/images/cheesy_ramen_1788805380133.jpg';
+import veggieRamenImg from '../assets/images/veggie_ramen_1788805397309.jpg';
 
 export const PRODUCTS: Product[] = [
   // Ramen Category
@@ -56,7 +59,7 @@ export const PRODUCTS: Product[] = [
     description: 'Flavour-packed vegetarian ramen. Rich shiitake mushroom broth, tender bok choy, sweet corn, silken tofu, and spring onions.',
     price: 329,
     spiceLevel: 1,
-    image: 'https://images.unsplash.com/photo-1614926857116-04306e232997?auto=format&fit=crop&w=800&q=80',
+    image: veggieRamenImg,
     tags: ['100% Veg', 'Plant Powered', 'Umami Packed'],
     isVegetarian: true,
     isPopular: false,
@@ -73,7 +76,7 @@ export const PRODUCTS: Product[] = [
     price: 399,
     originalPrice: 449,
     spiceLevel: 2,
-    image: 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80',
+    image: cheesyRamenImg,
     tags: ['Comfort Food', 'Viral TikTok Hit', 'Cheesy Pull'],
     isNew: true,
     isPopular: true,
@@ -105,7 +108,7 @@ export const PRODUCTS: Product[] = [
     price: 199,
     originalPrice: 249,
     spiceLevel: 3,
-    image: 'https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80',
+    image: chilliOilImg,
     tags: ['House Special', 'Addictive Crunch', 'Spice Booster'],
     isPopular: true,
     isVegetarian: true,
