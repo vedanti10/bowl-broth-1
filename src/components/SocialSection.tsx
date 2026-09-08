@@ -76,6 +76,7 @@ export const SocialSection: React.FC = () => {
                   <img
                     src={post.image}
                     alt={post.caption}
+                    referrerPolicy="no-referrer"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     loading="lazy"
                   />
@@ -174,6 +175,7 @@ export const SocialSection: React.FC = () => {
               <img
                 src={activePost.image}
                 alt={activePost.caption}
+                referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
               />
             </div>

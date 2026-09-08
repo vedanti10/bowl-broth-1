@@ -1,4 +1,5 @@
 import { SocialPost } from '../types';
+import chilliOilReviewImg from '../assets/images/chilli_oil_review_1788851039541.jpg';
 
 export const SOCIAL_POSTS: SocialPost[] = [
   {
@@ -39,7 +40,7 @@ export const SOCIAL_POSTS: SocialPost[] = [
     username: 'Chef Kabir',
     userHandle: '@kabir_streetfood',
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80',
-    image: 'https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80',
+    image: chilliOilReviewImg,
     caption: 'Drizzling the B&B Chilli Oil on everything: pizza, eggs, ramen, rice. Crispy garlic bits are unmatched! 🌶️',
     likes: 1845,
     college: 'Food Creator',
